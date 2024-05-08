@@ -1,0 +1,55 @@
+div.temple-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 10px;
+    margin:10px;
+}
+
+header nav{
+    display: flex;
+}
+
+header nav div{
+    width: 400px;
+    display: inline-block;
+}
+
+header nav ul{
+    display: flex;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+
+}
+
+header nav ul a{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+}
+
+.hamburger{
+    width: 50px;
+    position: absolute;
+    right: 20px;
+}
+
+.hamburger .line{
+    background-color: red;
+    height: 6px;
+    width: 50px;
+}
+
+.navigation{
+    display: none;
+}
+
+.active {
+    display: block;
+  }
+
+  .navigation li:hover{
+    font-size: 200%;
+    transition: all .5s ease-in-out;
+}
